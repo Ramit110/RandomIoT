@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "mongod --dbpath ./live_data/ ; npx tsc app.ts; node app.js ; rm app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^4.12.1",
+    "typescript": "^4.9.4"
+  }
+}
